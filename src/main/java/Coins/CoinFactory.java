@@ -1,3 +1,7 @@
+package Coins;
+
+import Coins.Coins;
+
 public class CoinFactory {
     public static Coin getCoin(Coins coinType)throws Exception
     {

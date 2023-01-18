@@ -1,0 +1,3 @@
+100.0 in USD coin is worth 352.0 in ILS coin
+150.0 in ILS coin is worth 42.00000000000001 in USD coin
+125.0 in ILS coin is worth 35.0 in USD coin

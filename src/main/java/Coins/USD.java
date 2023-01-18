@@ -1,9 +1,10 @@
-public class ILS extends Coin {
+package Coins;
 
-    private final static double value = 0.28;
+public class USD extends Coin {
+
+    private final static double value = 3.52;
     @Override
     public double getValue() {
-
         return value;
     }
 
