@@ -15,6 +15,11 @@ public class Main {
 
     final static String conversionResHistoryFileName = "results.txt";
 
+    // program that lets the user enter an amount in one coin,
+    // then calculates the matching amount in another coin (selected by the user), prints it to the screen
+    // and allows the user to repeat this operation as many times he/she wants.
+    // when the user wants to exit the program: the history of the operations, including their result,
+    // is printed to the screen and saved to a text file and the program ends.
     public static void main(String[] args) throws IOException {
         System.out.println("Welcome to currency converter");
         Scanner scanner = new Scanner(System.in);
@@ -107,6 +112,8 @@ public class Main {
         }
         outputWriter.close();
 
+        // open the conversion results history file in its default application in this computer
+        // (that this software runs on).
         try
         {
          //   Runtime.getRuntime().exec("cmd.exe /c Start " + conversionResHistoryFileName);
